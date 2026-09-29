@@ -1,0 +1,92 @@
+ .dark .sun-editor-editable {
+    color: white;
+}
+
+.dark .sun-editor {
+    border: 1px solid #202835;
+}
+
+.dark .sun-editor .se-toolbar {
+    background-color: #374151;
+    outline: none;
+    border-bottom: 1px solid #242b36;
+}
+
+.dark .sun-editor button {
+    color: white;
+}
+
+.dark .se-menu-list>li>button:hover {
+    background-color: #202835 !important;
+
+}
+
+.dark .sun-editor .se-btn-module-border {
+    border: 1px solid #242b36;
+}
+
+.dark .sun-editor .se-btn-select.se-btn-tool-font {
+    border: none;
+    background-color: none;
+    border-right: 1px solid #e2dfdf;
+
+}
+
+.dark .sun-editor .se-btn-select.se-btn-tool-size {
+    background-color: none;
+}
+
+.dark .sun-editor-editable {
+    background-color: #374151;
+}
+
+.dark .sun-editor .se-resizing-bar {
+    background-color: #202835;
+    outline: none;
+}
+
+.dark .sun-editor .se-resizing-bar {
+    border: none;
+}
+
+.dark .se-list-basic {
+    background: #303947;
+    margin: 0;
+    padding: 0;
+}
+
+.dark .se-list-basic>li>button{
+    border-radius: none;
+}
+.dark .se-list-basic>li>button:hover {
+    border-radius: none;
+    background-image: linear-gradient(to right, #395BEF , #5C28D5);
+}
+
+.dark .se-btn-list button.active {
+    background-image: linear-gradient(to right, #395BEF , #5C28D5) !important;
+    
+}
+.dark .default_value {
+    background-image: linear-gradient(to right, #395BEF , #5C28D5) !important;
+    border: none;
+    
+}
+.dark .sun-editor .se-list-inner .se-list-basic li button.active {
+    background-image: linear-gradient(to right, #395BEF , #5C28D5) !important;
+}
+.dark .sun-editor .se-list-layer {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+.dark .sun-editor .se-btn:enabled.on {
+    background-image: linear-gradient(to right, #395BEF , #5C28D5) !important;
+
+}
+.sun-editor .se-resizing-bar .se-navigation {
+    text-align: center;
+}
+.dark .sun-editor .se-resizing-bar .se-navigation {
+    color: white;
+}

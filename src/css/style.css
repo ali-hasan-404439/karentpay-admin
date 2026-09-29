@@ -1,0 +1,199 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.boxShadow-menu {
+  box-shadow: 1px 1px 1px 0.2px rgba(0, 0, 0, 0.2);
+}
+
+.boxShadow-table {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* reusable table tr component background color */
+.table_tr {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  color: #121213;
+  transition: background-color 0.2s ease;
+}
+
+.table_tr:hover {
+  background-color: #f9fafb;
+}
+
+.dark .table_tr {
+  background-color: #1f2937;
+  color: #e5e8ec;
+  border-bottom: 1px solid #2f3f55;
+}
+
+.dark .table_tr:hover {
+  background-color: #4b5563;
+}
+
+/* gradient button style  */
+.button_gradient,
+.button_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.button_active {
+  background: #f9fafb;
+  border: 1px solid #d7d8da;
+  color: black;
+}
+
+.button_active:hover {
+  background: #d7d8da;
+  color: black;
+}
+
+.button_gradient {
+  background: linear-gradient(to right, #395bef, #5c28d5);
+  color: white;
+}
+
+.button_gradient:hover {
+  background: linear-gradient(to right, #2a4ce2, #4d19c7);
+}
+
+.button_cancel {
+  padding: 0.75rem 1.25rem;
+  outline: none;
+  border-radius: 4px;
+  background-color: #ef4444;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button_cancel:hover {
+  background-color: #dc2626;
+}
+
+.active {
+  transition: none;
+  transform: none !important;
+}
+
+.pagination {
+  cursor: pointer !important;
+}
+
+.pagination .active>.page-link {
+  background: linear-gradient(90deg, #395bef, #5c28d5) !important;
+}
+
+.page-link {
+  border: none !important;
+  background: #f9fafb !important;
+}
+
+.dark .page-link {
+  background: #182235 !important;
+  color: white;
+}
+
+.error-text {
+  background: linear-gradient(90deg, #395bef, #5c28d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.required {
+  font-size: 12px;
+  color: #e02424e1;
+}
+
+.optional {
+  font-size: 12px;
+  color: #f1b900;
+}
+
+/* date picker  */
+
+.rdrDateDisplay {
+  display: none !important;
+}
+
+.rdrMonth {
+  width: 20.667em !important;
+}
+
+.rdrYearPicker {
+  display: none;
+}
+
+.rdrMonthPicker {
+  background-color: white;
+  border: none;
+}
+
+.rdrMonthPicker::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.apx-legend-position-right {
+  display: none !important;
+}
+
+.PhotoView-Portal {
+  margin: 300px !important;
+  height: 80% !important;
+  width: 80% !important;
+  top: 0 !important;
+}
+
+.PhotoView-Slider__Backdrop {
+  width: 500px !important;
+  width: 80% !important;
+  padding: 0 !important;
+  margin-top: -200px;
+}
+
+.apexcharts-legend {
+  display: none !important;
+}
+
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d1d1;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a7a6a6;
+}
+
+.hidden-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
